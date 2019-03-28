@@ -1,0 +1,444 @@
+body
+{
+  font-family: laila sans-serif;
+    font-size: 20px;
+}
+h1
+{
+    font-family: cairo,sans-serif;
+    font-size: 20px;
+    color: #4a148c;
+}
+h2
+{
+    font-size: 50px;
+    color: #444;
+}
+ol
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    color: #444;
+}
+/*.wrapper
+{
+   width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}*/
+
+/*HEADER*/
+header
+{
+    height: 120px;    
+}
+header h1
+{
+    float: left;
+    margin-top: 32px;
+    margin-left: 70px;
+    
+    
+}
+header nav
+{
+   float: left ;
+}
+header nav .pull-right
+{
+    float: right;
+}
+header nav ol li
+{
+    display: inline-block;
+    margin-top: 32px;
+}
+header nav ol li a
+{
+    font-weight:normal;
+    margin-left: 20px;
+}
+.pull-right
+{
+    position: absolute;
+    right: 0;
+    margin-bottom: 200px;
+    margin-right: 25px;
+}
+
+/*main-image*/
+#main-image
+{
+    height: 580px;
+    background: url("../IMAGES/acceuil.jpeg") center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100%;
+}
+#main-image h2
+{
+    font-weight: normal;
+    text-align: center;
+    padding: 150px 0 40px 0;
+}
+.button-1
+{
+    display: block;
+    width: 130px;
+    height: 50px;
+    background: white;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;    
+}
+/*paragraphe*/
+#paragraphe
+{
+    margin-top: 32px;
+    font-size: 25px;
+}
+#paragraphe span
+{
+   color: #444;
+    font-size: 35px;
+}
+
+/*presentation*/
+#presentation
+{
+    background-color: #f1f8e9;
+    height: 340px;
+}
+#presentation .taille
+{
+    margin-top: 102px;
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+/*paragraphe*/
+#paragraphe p 
+{
+  font-size: 20px;  
+}
+#paragraphe p span
+{
+    color: #4a148c;
+}
+#presentation .taille p
+{
+    font-size: 15px;
+    color: #651fff;
+}
+
+/*presente*/
+#presente
+{
+    height: 480px;
+    background: url("../IMAGES/ACCEUIL2.jpeg") center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100%;
+    margin-top: 5px;
+}
+
+/*recommendation*/
+#recommandation h2
+{
+  text-align: center;
+    margin-top: 70px;
+    font-size: 45px;
+}
+#recommandation .espace
+{
+    margin-top: 50px;
+}
+
+/*avantages*/
+#avantages
+{
+   height: 580px;
+    background: url("../IMAGES/ACCEUIL4.jpeg") center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100%;
+    margin-top: 50px;
+}
+#avantages p
+{
+    margin-top: 260px;
+    font-size: 40px;
+    color: white;
+}
+
+/*motivation*/
+.motivation h5
+{
+    margin-top: 70px;
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 16px;
+}
+
+/*FOOTER*/
+ #color
+{
+    margin-top:32px;
+    background: #444;
+}
+#color .texte
+{
+    color: white;
+    margin-top: 40px;
+    margin-bottom:40px; 
+}
+#color .texte p
+{
+    font-size: 16px;
+    margin-top: 6px;
+}
+#color .texte h3
+{
+    font-size: 21px;
+}
+/***********************************************************************************************/
+
+
+/*S'IDENTIFIER*/
+
+/*blue*/
+#blue
+{
+    background-color: #4a148c;
+    height: 300px;
+}
+#blue .titre h2
+{
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    padding: 100px;
+    margin-top: 15px;
+}
+#blue .titre p
+{
+/*   font-size: 35px;*/
+    text-align: center;
+    color:#fff;
+    padding: 20px;
+}
+.title h3
+{
+    text-align:center;
+ }       
+#contact-form
+{
+     font-size: 20px;
+     padding: 40px;
+     border-radius: 10px;
+    background:#f1f8e9; 
+    margin-top: 15px;
+    margin-bottom: 20px;
+/*     background:#371F57;*/
+}
+.form-control
+{
+    height: 50px;
+    font-size: 18px;
+}
+.comments
+{
+    font-size: 18px;
+    color: #d82c2e;
+    height: 15px;
+}
+#contact-form input[type=submit]
+{
+    margin: 40px auto 0px;
+    display: block;
+}
+.button1
+{
+     border: 1px solid #ddd;
+    background:#4a148c;
+    color: #fff;
+    font-weight: bold;
+    padding: 18px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in 0s;
+ 
+}
+.button1:hover
+{
+    background: #333;
+    border-color:#4a148c; 
+}
+/***************************************************************************************/
+/*ALIMENTATION*/
+#main-image1
+{
+   height: 480px;
+    background: url("../IMAGES/ALIMENT.jpeg") center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100%;
+/*    margin-top: 50px;*/
+}
+#main-image1 h2
+{
+    color: #fff;
+    text-align: center;
+    margin-top: 120px;
+}
+#main-image1 p
+{
+    color: #fff;
+    text-align: center;
+    margin-top: 32px;
+}
+/*para*/
+#para
+{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+#para h2
+{
+    text-align: center;
+    font-size: 45px;
+}
+#para p
+{
+    text-align: center;
+    margin-top: 32px;
+}
+/*pti-dej*/
+#pti-dej
+{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+#pti-dej img
+{
+    
+    width: 50%; 
+    border-radius: 15px;
+}
+ .right
+{
+    text-align: right;
+    margin-right: 350px;
+    margin-bottom: 80px;
+}
+#pti-dej .right p
+{
+    margin-right: 10px;
+}
+.right h3
+{
+    font-size: 40px;
+}
+
+
+
+/*DEJ*/
+#dej
+{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+#dej img
+{
+     float: right;
+     margin-right: 50px;
+     width: 50%; 
+    border-radius: 15px;
+}
+
+
+/*diner*/
+#diné
+{
+    margin-top: 70px;
+    margin-bottom: 70px;  
+}
+#diné img
+{ 
+    width: 50%; 
+    border-radius: 15px;
+/*    margin-top: 60px;*/
+}
+.left h3
+{
+    font-size: 40px;
+}
+
+
+/*dessert*/
+#dessert
+{
+    margin-top: 70px;  
+} 
+
+#dessert img
+{
+     float: right;
+     margin-right: 50px;
+     width: 50%; 
+    border-radius: 15px;
+}
+
+
+/*VERT*/
+#vert
+{
+    background-color: #15C170;
+    height: 400px;
+    margin-bottom: 40px;
+}
+#vert .icon
+{
+    margin-top: 150px;
+}
+
+#vert h3
+
+{
+    font-size: 35px;
+    color: #fff;
+}
+/*
+ .glyphicon
+{
+   width: 50px; 
+}
+*/
+
+/*RECETTE*/
+
+#recette
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#recette h3
+{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+#recette img
+{
+   width: 320px; 
+    border-radius: 5px;
+}
+#recette p
+{
+    margin-top: 25px;
+    font-size: 20px;
+}

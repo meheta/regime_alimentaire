@@ -1,0 +1,26 @@
+{
+  "name": "monprojetjavascript",
+  "version": "1.0.0",
+  "description": "regime node express",
+  "main": "index.js",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-flash": "0.0.2",
+    "express-validator": "^5.3.1",
+    "method-override": "^3.0.0",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "marie",
+  "license": "ISC",
+  "directories": {
+    "lib": "lib"
+  }
+}

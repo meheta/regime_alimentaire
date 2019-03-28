@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>   
+    <head>
+        <title>regime alimentaire</title>
+         <meta charset="utf-8"/>
+        <meta name="viewport" content="wight=device-wight, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Laila" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+        
+    </head>
+     <body>
+         <section id="blue">
+            <div class="titre">
+                <h2>Ravie de vous revoie parmis nous !</h2>
+             </div>
+         </section>
+         <section>
+         <div class="container">
+                 <div class="row">
+                     <div class="col-lg-2"></div>
+                      <div class="col-lg-8 ">
+                           <form id="contact-form" method="post" action="" role="form"> 
+                                <div class="row">
+                                    
+                                    <div class="col-md-6">
+                                         <label for="email" class="white">Email</label>
+                                          <input type="email" id="email" name="email" class="form-control" placeholder="E-mail">
+                                        <% if(errors.country) {%>
+                                         <p class="comments">desolé! entrer votre email svp !</p>
+                                        <%}%>
+                                    </div>
+                                    
+                                    <div class="col-md-6">
+                                         <label for="password" class="white">mots de passe</label>
+                                          <input type="password" id="password" name="password" class="form-control" placeholder="mot de passe">
+                                         <% if(errors.country) {%>
+                                         <p class="comments">Desolé! entrez votre mot de passe svp!</p>
+                                        <%}%>
+                                    </div>
+                                     
+                                      <div class="col-md-12"> 
+                                          <p class="white"> <strong>pas de compte?</strong></p>
+                                          <a href="/s'inscrit"> s'inscit ici</a>
+                                      </div>
+                                    
+                                    <div class="col-md-12"> 
+                                          <input type="submit" class="button1" value="s'identifier">
+                                    </div>
+                                    
+                                  </div>    
+                             </form>
+                          </div>
+                     <div class="col-lg-2"></div>
+                       </div>
+                    </div>
+        </section>
+    </body>
+</html>

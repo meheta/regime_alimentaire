@@ -1,0 +1,193 @@
+<%- include('hautBas') -%>
+
+         <section id="blue">
+            <div class="titre">
+                <p>Dépèchez-vous, l'offre prends fin bientot !</p>
+                <h2>inscrivez-vous et profitez de nos programmes et services.</h2>
+             </div>
+         </section>
+<form  method="post" action="" role="form">
+    <section>
+         <div class="container">
+                 <div class="row">
+                     <div class="col-lg-2"></div>
+                      <div class="col-lg-8" id="contact-form">
+                 
+                                <div class="row">
+                                    
+                                     <div class="col-md-6">
+                                         <label for="firstname" class="white">Prenom</label>
+                                          <input type="text" id="firstname" name="firstname" class="form-control" placeholder="votre prénom">
+                                         <% if(errors.firstname) {%>
+                                         <p class="comments">Besoin de votre prenom !</p>
+                                         <%}%>
+                                    </div>
+                                    
+                                    <div class="col-md-6">
+                                         <label for="name" class="white">Nom</label>
+                                          <input type="text" id="name" name="name" class="form-control" placeholder="votre nom">
+                                        <% if(errors.name) {%>
+                                         <p class="comments">Besoin de votre nom !</p>
+                                        <%}%>
+                                    </div>
+                                    
+                                    <div class="col-md-6">
+                                         <label for="date" class="white">Date de Naissance</label>
+                                          <input type="text" id="date" name="date" class="form-control" placeholder="JJ/MM/AAAA">
+                                        <% if(errors.date) {%>
+                                         <p class="comments">Besoin de votre Date de naissance !</p>
+                                        <%}%>
+                                    </div>
+                                    
+                                     <div class="col-md-6">
+                                         <label for="commune" class="white">Commune</label>
+                                          <input type="text" id="commune" name="commune" class="form-control" placeholder="commune">
+                                         <% if(errors.commune) {%>
+                                         <p class="comments">ou residez vous !</p>
+                                         <%}%>
+                                    </div>
+                                    
+                                     <div class="col-md-6">
+                                         <label for="quartier" class="white">Quartier</label>
+                                          <input type="text" id="quartier" name="quartier" class="form-control" placeholder="votre quartier">
+                                         <% if(errors.quartier) {%>
+                                         <p class="comments">precisez votre quartier !</p>
+                                         <%}%>
+                                    </div>
+                                </div>    
+                           </div>
+                            <div class="col-lg-2"></div>
+                          </div>
+                        </div>
+             </section>
+             
+     <section>
+         
+      <div class="container">
+        <div class="divider"> </div>
+             <div class="title">
+                 <h3>confidentialité</h3>
+                  </div>
+                 <div class="row">
+                     <div class="col-lg-2" ></div>
+                      <div class="col-lg-8" id="contact-form">
+                                <div class="row">
+                                    
+                                     <div class="col-md-6">
+                                         <label for="email" class="white">email</label>
+                                          <input type="text" id="email" name="email" class="form-control" placeholder="votre e-mail">
+                                         <% if(errors.email) {%>
+                                         <p class="comments">renseigné ce champs svp!</p>
+                                         <%}%>
+                                    </div>
+                                    
+                                    <div class="col-md-6">
+                                         <label for="password" class="white">mot de passe</label>
+                                          <input type="password" id="password" name="password" class="form-control" placeholder="mot de passe">
+                                        <% if(errors.password) {%>
+                                         <p class="comments">renseigné ce champs svp!</p>
+                                        <%}%>
+                                    </div>
+                               </div>
+                               
+                           </div>
+                            <div class="col-lg-2"></div>
+                          </div>
+                        </div>
+             </section>
+     <section>
+         <div class="container">
+        <div class="divider"> </div>
+             <div class="title">
+                 <h3>saisir votre Adresse</h3>
+                  </div>
+                 <div class="row">
+                     <div class="col-lg-2"></div>
+                      <div class="col-lg-8 "id="contact-form">
+                 
+                                <div class="row">
+                                    
+                                     <div class="col-md-10">
+                                         <label for="adresse" class="white">adresse</label>
+                                          <input type="text" id="adresse" name="adresse" class="form-control" placeholder="adresse et numero de rue">
+                                         <% if(errors.adresse) {%>
+                                         <p class="comments">renseigné ce champs svp!</p>
+                                         <%}%>
+                                    </div>
+                                    
+                                    <div class="col-md-6">
+                                         <label for="ville" class="white">ville</label>
+                                          <input type="text" id="city" name="city" class="form-control" placeholder="votre ville">
+                                        <% if(errors.city) {%>
+                                         <p class="comments">renseigné ce champs svp!</p>
+                                        <%}%>
+                                    </div>
+                                    
+                                    <div class="col-md-4">
+                                         <label for="code" class="white">code</label>
+                                          <input type="nombre" id="code" name="code" class="form-control" placeholder="code postal">
+                                        <% if(errors.code) {%>
+                                         <p class="comments">Entrez las chiffres de votre code postal!</p>
+                                        <%}%>
+                                    </div>
+                                </div>
+                         
+                             </div>
+                                <div class="col-lg-2"></div>
+                             </div>
+ <section>
+         
+      <div class="container">
+        <div class="divider"> </div>
+             <div class="title">
+                 <h3>information additionnelle</h3>
+                  </div>
+                 <div class="row">
+                     <div class="col-lg-2"></div>
+                      <div class="col-lg-8 "id="contact-form">
+                           <label for="sexe" class="white">sexe</label>
+                                <div class="row">
+                                    <div class="form-check form-check-inline col-md-6">
+                                        <input class="form-check-input " type="radio" name="sexe&" id="sexe1" value="option1">
+                                        <label class="form-check-label white" for="inlineRadio1">Masculin</label>
+                                    </div>
+                                    <div class="form-check form-check-inline col-md-6">
+                                          <input class="form-check-input" type="radio" name="sexe2" id="SEXE2" value="option2">
+                                          <label class="form-check-label white" for="inlineRadio2">Feminin</label>
+                                     </div>
+
+                                    
+                                <div class="col-md-6">
+                                    <select class="form-control" name="country" >
+                                         <option selected>pays de naissance</option>
+                                         <option value="Angleterre">Angleterre</option>
+                                         <option value="Allemangne">Allemangne</option>
+                                         <option value="Burkina Faso">Burkina Faso</option>
+                                         <option value="Canada">Canada</option>
+                                         <option value="Cote d'ivoire">Cote d'ivoire</option>
+                                         <option value="Espagne">Espagne</option>
+                                         <option value="Etats-unis">Etats-unis</option>
+                                         <option value="France">France</option>
+                                         <option value="Guinée">Guinée</option>
+                                         <option value="Italie">Italie</option>
+                                         <option value="Senegal">Senegal</option>
+                                    </select>
+                                    <% if(errors.country) {%><p class="comments"></p><%}%>
+                                    </div>
+                                </div>
+                         
+                            </div>
+                        <div class="col-lg-2"></div>
+                     </div>
+                  </div>
+            </section>
+             
+             
+          <div class="col-lg-2"></div>
+          <div class="col-md-8"> 
+            <input type="submit" class="button1" value="S'inscrit">
+          </div>
+         <div class="col-lg-2"></div>
+      </form>
+         </body>
+    </html>
